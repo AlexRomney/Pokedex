@@ -1,0 +1,17 @@
+<h2 class='gen1-header'> First Generation Pokedex </h1>
+
+<form action='/gen1'>
+  <input type='text' name='pokemon' placeholder="Pokemon" autofocus>
+  <input class='button-primary' type='submit'>
+</form>
+
+<div id='pokedex'> </div>
+
+<img class='sprite' src="<%= @sprite %>" />
+
+<div class='height'>
+  <p> Height: <span style='font-size: 13px;'><%= @height %> </span> </p>
+</div>
+
+<div class='weight'>
+  <p> Weight: <span style='font-size: 13px;'><%= @weight %></span> </p>

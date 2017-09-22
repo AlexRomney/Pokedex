@@ -1,0 +1,45 @@
+#pokedex {
+  background-image: url('gen1_pokedex.png');
+  height: 600px;
+  width: 100%;
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+}
+
+.gen1-header {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.height {
+  position: absolute;
+  color: white;
+  top: 383px;
+  right: 37%;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.weight {
+  position: absolute;
+  color: white;
+  top: 383px;
+  right: 27%;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.sprite {
+  position: absolute;
+  top: 338px;
+  left: 435px;
+  width: 15rem;
+  height: 15rem;
+}
