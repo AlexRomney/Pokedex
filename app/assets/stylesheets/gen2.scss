@@ -1,0 +1,12 @@
+#pokedex2 {
+  background-image: url('gen2_pokedex.svg');
+  height: 625px;
+  width: 100%;
+  position: absolute;
+  top: 120px;
+  left: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: -1;
+}

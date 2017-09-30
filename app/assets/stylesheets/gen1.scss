@@ -1,7 +1,8 @@
-#pokedex {
+#pokedex1 {
   background-image: url('gen1_pokedex.png');
   height: 600px;
   width: 100%;
+  left: 25px;
   position: absolute;
   background-size: contain;
   background-repeat: no-repeat;
@@ -9,8 +10,10 @@
   z-index: -1;
 }
 
-.gen1-header {
+.gen-header {
   text-align: center;
+  font-family: "Bangers";
+  letter-spacing: 1px;
 }
 
 form {
@@ -18,28 +21,53 @@ form {
   justify-content: center;
 }
 
-.height {
-  position: absolute;
-  color: white;
-  top: 383px;
-  right: 37%;
-  font-size: 16px;
-  font-weight: 700;
-}
+@media (min-width: 1050px){
+  .name {
+    position: relative;
+    color: white;
+    top: 40px;
+    left: 860px;
+    font-size: 28px;
+    font-weight: 700;
+    width: 10%;
+    text-align: center;
+    font-family: 'Bangers';
+    letter-spacing: 2.5px;
+  }
 
-.weight {
-  position: absolute;
-  color: white;
-  top: 383px;
-  right: 27%;
-  font-size: 16px;
-  font-weight: 700;
-}
+  .height {
+    position: relative;
+    color: white;
+    top: 26px;
+    left: 790px;
+    font-size: 16px;
+    font-weight: 700;
+    width: 10%;
+    text-align: center;
+    font-family: 'Bangers';
+    letter-spacing: 2.5px;
+  }
 
-.sprite {
-  position: absolute;
-  top: 338px;
-  left: 435px;
-  width: 15rem;
-  height: 15rem;
+  .weight {
+    position: relative;
+    color: white;
+    bottom: 23px;
+    left: 925px;
+    font-size: 16px;
+    font-weight: 700;
+    width: 10%;
+    text-align: center;
+    font-family: 'Bangers';
+    letter-spacing: 2.5px;
+  }
+
+  .sprite {
+    position: relative;
+    top: 190px;
+    left: 440px;
+    width: 15rem;
+    height: 15rem;
+    width: 10%;
+    text-align: center;
+  }
 }
